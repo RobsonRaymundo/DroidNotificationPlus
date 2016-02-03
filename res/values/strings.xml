@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droid Notification Plus</string>
+    <string name="description">Droid Notification Plus connects the screen and displays the notification bar native android when you receive a notification of the selected applications.</string>
+    <string name="app_active">Application ACTIVE</string>
+    <string name="app_deactive">Tap here to DEACTIVATE</string>
+    <string name="app_inactive">Application INACTIVE</string>
+    <string name="app_activate">Tap here to ACTIVATE</string>
+    <string name="app_select">Select the applications</string>
+    <string name="app_notification">Notification</string>
+    <string name="app_apps">Applications</string>
+    <string name="app_loading">Loading ...</string>
+    <string name="app_config">Configuration</string>
+    <string name="quietHours">Stop notify</string>
+    <string name="quietSum">Do not switch the screen between the hours below</string>
+    <string name="startTime">Starting time</string>
+    <string name="stopTime">End time</string>
+    <string name="set">OK</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="summarySelect">Tap here to select the applications that will turn on the screen when you receive notification</string>
+    <string name="period">Period</string>
+
+    <string name="displayNotification">Screen</string>
+    <string name="timeNotification">Time to have it linked</string>
+    <string name="summaryNotification">Tap here to set the seconds to keep the screen turned on</string>
+
+    <string name="setBrightMax">Brightness maximum</string>
+    <string name="brightMax">When activated, the screen connects at its maximum brightness. Some devices require the maximum brightness to view notifications</string>
+
+    <string name="sensorProximity">Sensor</string>
+
+    <string name="setSensor">Do not turn in your pocket</string>
+    <string name="blockDisplay">When enabled, prevents the screen plug in your pocket</string>
+
+    <string name="setSensorGesture">Turn on the screen by gestures</string>
+    <string name="blockDisplayGesture">When activated, the screen connects only through gestures over the proximity sensor (consumes more power)</string>
+
+    <string name="setSensorOn">Turning the screen whenever</string>
+    <string name="blockDisplayOn">When activated, the screen connects all the time you take the device out of his pocket, so you can see the time and other phone information. This option is enabled if the proximity sensor be covered by more than 3 seconds and then is discovered (consumes a lot of battery)</string>
+
+
+
+    <string name="app_service_samsung">Disable services screen reading</string>
+    <string name="app_active_google">Google Text-to-speech Engine</string>
+    <string name="app_active_samsung">Samsung TTS</string>
+    <string name="app_service_summary">Some handsets from Samsung are activating the services they read aloud to each transaction made ​​on the device automatically. While Samsung does not correct the problem, you can disable the services below:</string>
+    <string name="app_tts_summary">Tap here to disable the service</string>
+
+</resources>

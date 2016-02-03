@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/app_notification" >
+        <Preference
+            android:key="service"
+            android:title="@string/app_active"
+            android:summary="@string/app_deactive" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/app_config" >
+        <Preference
+            android:key="app"
+            android:title="@string/app_select"
+            android:summary="@string/summarySelect">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.droid.notification"
+                android:targetClass="com.droid.notification.DroidActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="categorySensor" android:title="@string/sensorProximity">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="proxSensor"
+            android:title="@string/setSensor"
+            android:summary="@string/blockDisplay" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="proxSensorGesture"
+            android:title="@string/setSensorGesture"
+            android:summary="@string/blockDisplayGesture" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="proxSensorOn"
+            android:title="@string/setSensorOn"
+            android:summary="@string/blockDisplayOn" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/period">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="quiet"
+            android:summary="@string/quietSum"
+            android:title="@string/quietHours" />
+        <com.droid.notification.DroidTime
+            android:defaultValue="23:00"
+            android:key="startTime"
+            android:showDefault="true"
+            android:title="@string/startTime" />
+        <com.droid.notification.DroidTime
+            android:defaultValue="09:00"
+            android:key="stopTime"
+            android:showDefault="true"
+            android:title="@string/stopTime" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="categoryNotification" android:title="@string/displayNotification">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="brightMax"
+            android:title="@string/setBrightMax"
+            android:summary="@string/brightMax" />
+        <com.droid.notification.DroidNumber
+            android:title="@string/timeNotification"
+            android:summary="@string/summaryNotification"
+            android:defaultValue="10"
+            android:key="timeNotification"
+            android:showDefault="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="categoryServices"
+        android:title="@string/app_service_samsung">
+
+        <Preference android:summary="@string/app_service_summary"/>
+
+        <Preference
+            android:key="serviceGoogle"
+            android:title="@string/app_active_google"
+            android:summary="@string/app_tts_summary"/>
+
+        <Preference
+            android:key="serviceSamsung"
+            android:title="@string/app_active_samsung"
+            android:summary="@string/app_tts_summary"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droid Notification Plus</string>
+    <string name="description">Droid Notification Plus liga a tela e exibe a barra de notificação nativa do android quando recebe uma notificação dos aplicativos selecionados.</string>
+    <string name="app_active">Aplicativo ATIVADO</string>
+    <string name="app_deactive">Toque aqui para DESATIVAR</string>
+    <string name="app_inactive">Aplicativo DESATIVADO</string>
+    <string name="app_activate">Toque aqui para ATIVAR</string>
+    <string name="app_select">Selecione os aplicativos</string>
+    <string name="app_notification">Notificação</string>
+    <string name="app_apps">Aplicativos</string>
+    <string name="app_config">Configuração</string>
+    <string name="app_loading">Carregando ...</string>
+    <string name="quietHours">Pare de notificar</string>
+    <string name="quietSum">Não ligue a tela entre as horas abaixo</string>
+    <string name="startTime">Hora inicial</string>
+    <string name="stopTime">Hora final</string>
+    <string name="set">OK</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="period">Período</string>
+
+    <string name="summarySelect">Toque aqui para selecionar os aplicativos que vão ligar a tela quando receber uma notificação</string>
+
+    <string name="displayNotification">Tela</string>
+    <string name="timeNotification">Tempo de tela ligada</string>
+    <string name="summaryNotification">Toque aqui para configurar os segundos para manter a tela ligada</string>
+
+    <string name="setBrightMax">Brilho no máximo</string>
+    <string name="brightMax">Quando ativado, a tela liga no seu brilho máximo. Alguns aparelhos necessitam do brilho no máximo para poder visualizar as notificações</string>
+
+    <string name="sensorProximity">Sensor</string>
+
+    <string name="setSensor">Não ligar a tela no bolso</string>
+    <string name="blockDisplay">Quando ativado, impede que a tela ligue no seu bolso</string>
+
+    <string name="setSensorGesture">Ligar a tela por gestos</string>
+    <string name="blockDisplayGesture">Quando ativado, a tela liga somente através de gestos em cima do sensor de proximidade (consome mais bateria)</string>
+
+    <string name="setSensorOn">Ligar a tela sempre</string>
+    <string name="blockDisplayOn">Quando ativado, a tela liga todas as vezes que você tirar o aparelho do bolso, para você ver a hora e as outras informações do aparelho.  Essa opção é ativada se o sensor de proximidade ficar coberto por mais de 3 segundos e em seguida for descoberto (consome muita bateria)</string>
+
+    <string name="app_service_samsung">Desativar serviços de leitura de tela</string>
+    <string name="app_active_google">Mec.de Leitura de texto do Google</string>
+    <string name="app_active_samsung">Samsung TTS</string>
+    <string name="app_service_summary">Alguns aparelhos da Samsung estão ativando os serviços que leem em voz alta a cada operação feita no aparelho automaticamente. Enquanto a Samsung não corrige o problema, você pode desativar os serviços abaixo: </string>
+    <string name="app_tts_summary">Toque aqui para desativar o serviço</string>
+
+</resources>

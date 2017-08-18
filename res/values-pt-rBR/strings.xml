@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Droid Notification Plus</string>
-    <string name="description">Droid Notification Plus liga a tela e exibe a barra de notificação nativa do android quando recebe uma notificação dos aplicativos selecionados.</string>
+    <string name="app_name">Notification Plus</string>
+    <string name="description">Notification Plus liga a tela e exibe a barra de notificação nativa do android quando recebe uma notificação dos aplicativos selecionados.</string>
     <string name="app_active">Aplicativo ATIVADO</string>
     <string name="app_deactive">Toque aqui para DESATIVAR</string>
     <string name="app_inactive">Aplicativo DESATIVADO</string>

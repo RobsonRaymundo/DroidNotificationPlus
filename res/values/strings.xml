@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Droid Notification Plus</string>
-    <string name="description">Droid Notification Plus connects the screen and displays the notification bar native android when you receive a notification of the selected applications.</string>
+    <string name="app_name">Notification Plus</string>
+    <string name="description">Notification Plus connects the screen and displays the notification bar native android when you receive a notification of the selected applications.</string>
     <string name="app_active">Application ACTIVE</string>
     <string name="app_deactive">Tap here to DEACTIVATE</string>
     <string name="app_inactive">Application INACTIVE</string>
